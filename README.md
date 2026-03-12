@@ -1,39 +1,70 @@
-# IBOVESPA Trend Prediction
+# 📈 Previsão da Tendência do IBOVESPA com Machine Learning
 
-Machine learning model to predict whether the IBOVESPA index will close higher or lower on the next day using historical market data.
+## 📌 Sobre o projeto
 
----
+Este projeto está sendo desenvolvido como parte do Tech Challenge da Fase 02 da pós-graduação em Data Analytics.
 
-## Project Context
+O objetivo é construir um modelo preditivo capaz de identificar se o índice IBOVESPA irá fechar em alta ou em baixa no dia seguinte, com base em dados históricos do mercado financeiro.
 
-This project simulates the work of a data scientist in an investment fund, where the goal is to develop a predictive model capable of identifying the next-day trend of the IBOVESPA index.
-
-The model is designed to support internal dashboards used by quantitative analysts, helping them interpret market behavior and assist decision-making processes.
+O modelo será utilizado como apoio para dashboards internos de análise quantitativa e tomada de decisão em investimentos.
 
 ---
 
-## Objective
+## 🎯 Problema de negócio
 
-The main objective of this project is to build a predictive model that determines whether the IBOVESPA closing price on the next trading day will be higher or lower than the current day.
+Em ambientes financeiros, prever tendências de curto prazo pode auxiliar analistas e gestores na definição de estratégias de investimento.
+
+Neste contexto, o projeto busca desenvolver um modelo que identifique a direção do movimento diário do índice IBOVESPA, contribuindo para análises quantitativas e apoio à tomada de decisão.
 
 ---
 
-## Dataset
+## 📊 Dados utilizados
 
-Historical IBOVESPA data was collected from:
-https://br.investing.com/indices/bovespa-historical-data
+- Dados históricos do índice IBOVESPA
+- Frequência: diária
+- Período: mínimo de 2 anos
+- Fonte: Investing.com
 
-Configuration used:
+---
 
-- Frequency: Daily
-- Period: At least 2 years of historical data
+## 🛠️ Etapas do projeto
 
-Main variables include::
+- Aquisição dos dados históricos
+- Tratamento e preparação da base (em andamento)
+- Engenharia de atributos
+- Definição do target preditivo
+- Treinamento e avaliação de modelos de Machine Learning
+- Análise de métricas e validação
+- Construção de storytelling técnico
 
-- Date -> Trading date
-- Last -> Closing price of the IBOVESPA index for the day
-- Open -> Opening price at the beginning of the trading session
-- High -> Highest price reached during the trading day
-- Low -> Lowest price reached during the trading day
-- Vol. -> Trading volume during the day
-- Var% -> Daily percentage variation of the index
+---
+
+## 🚀 Status do projeto
+
+🟡 Em desenvolvimento  
+Atualmente em fase de tratamento e preparação dos dados para modelagem.
+
+---
+
+## 🔮 Possíveis técnicas a serem utilizadas
+
+- Regressão logística  
+- Árvores de decisão  
+- Random Forest  
+- Redes neurais (LSTM)  
+- Técnicas de séries temporais  
+
+---
+
+## 👥 Desenvolvimento do projeto
+
+Projeto desenvolvido em grupo no Tech Challenge da Pós-graduação em Data Analytics.
+
+Participantes:
+
+- Isabella Rodrigues Sandes  
+- Matheus de Oliveira  
+- Tiago Rodrigues de Oliveira  
+- Wesley Alexander Lopes da Silva 
+
+🔗 GitHub: https://github.com/isabellarsandes
